@@ -30,15 +30,3 @@ It uses a fine-tuned BERT model and matches input against known news snippets fo
 3. Place your fine-tuned BERT model folder named `fake-news-bert-model` inside the project root.
 
 ---
-
-## Usage
-
-Import and use the `predict_fake_news` function:
-
-```python
-from fake_news_detector import predict_fake_news
-
-text = "Your news text here."
-
-label, confidence = predict_fake_news(text)
-print(f"Prediction: {label} (Confidence: {confidence})")
